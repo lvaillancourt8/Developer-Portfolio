@@ -1,0 +1,79 @@
+
+
+.navbar {
+    background-image: url(../images/project\ image\ 4.jpg);
+}
+
+nav a h2,
+nav a h3 {
+    color: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+main {
+    margin: 50px 20px;
+}
+
+main ul {
+    list-style: none;
+    display: flex;
+    justify-content:start;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+a {
+    color: green;
+}
+
+main img {
+    min-height: 297px;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 30px;
+}
+
+.section-title {
+    display: block;
+    border-right: 4px solid black;
+}
+
+.navlink {
+    color: white;
+}
+.top-bar {
+    margin: 30px;
+}
+.row {
+    margin: 20px 0;
+}
+
+.project-container {
+    padding: 10px;
+}
+
+.img-container {
+    min-width: 100%;
+}
+
+
+@media only screen and (max-width: 766px) {
+    .section-title {
+        display: block;
+        border-right: none;
+    }
+}  
