@@ -1,8 +1,8 @@
-
-
-.navbar {
-    background-image: url(../images/project\ image\ 4.jpg);
+* {
+    margin: 0
 }
+
+/* CSS to style document elements */
 
 nav a h2,
 nav a h3 {
@@ -26,6 +26,7 @@ main ul {
 li {
     display: inline-block;
     margin: 0 20px 0 0;
+    color: green;
 }
 
 a {
@@ -37,7 +38,7 @@ main img {
 }
 
 footer {
-    height: 80px;
+    height: 90px;
     background-color: black;
     color: white;
     text-align: center;
@@ -45,6 +46,13 @@ footer {
 
 footer p {
     padding: 30px;
+}
+
+
+/* Style Document Classes */
+
+.navbar {
+    background-image: url(../images/project\ image\ 4.jpg);
 }
 
 .section-title {
@@ -55,9 +63,11 @@ footer p {
 .navlink {
     color: white;
 }
+
 .top-bar {
-    margin: 30px;
+    margin: 40px 60px ;
 }
+
 .row {
     margin: 20px 0;
 }
@@ -67,9 +77,11 @@ footer p {
 }
 
 .img-container {
-    min-width: 100%;
+
 }
 
+
+/* Media Queries for responsiveness */
 
 @media only screen and (max-width: 766px) {
     .section-title {
