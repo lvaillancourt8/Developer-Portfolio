@@ -53,6 +53,7 @@ footer p {
 
 .navbar {
     background-image: url(../images/project\ image\ 4.jpg);
+    background-size: cover;
 }
 
 .section-title {
@@ -74,10 +75,6 @@ footer p {
 
 .project-container {
     padding: 10px;
-}
-
-.img-container {
-
 }
 
 
